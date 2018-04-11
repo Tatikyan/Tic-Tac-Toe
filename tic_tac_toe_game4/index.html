@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="init_game();">
+<table width="100%">
+    <tr>
+        <td width="50%">
+            <span id="game_info">Click on the cell to open it</span> <!-- game messages -->
+        </td>
+        <td width="50%">
+            <form name="start_game_form" action="javascript:click_game_button();">
+                Size of the field: <input type="text" name="n_cells" value="8" title="Count Cells" size="3">
+                <input type="button" value="Start Game" onclick="click_game_button();"> <!-- start game button -->
+            </form>
+        </td>
+    </tr>
+</table>
+<div id="game"></div>
+</body>
+</html>

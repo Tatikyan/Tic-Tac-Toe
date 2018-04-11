@@ -1,0 +1,18 @@
+#gameinfo {
+    font-size: 110%;
+}
+
+#game table {
+    border: 3px groove blue;
+    margin:50px auto;
+}
+#game table tr td {
+    border: 1px dotted #eeb;
+    cursor: pointer;
+}
+#game table tr td:hover {
+    border: 1px solid #f65050;
+}
+#game table tr td img {
+    width:100px;
+}
